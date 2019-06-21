@@ -36,6 +36,7 @@ public void OnPluginStart()
 		adminFlag = CreateConVar("custom_clantag_admin", "ADMIN", "Clan tag to be set for admin");
 		reserveFlag = CreateConVar("custom_clantag_reserve", "RESERVE", "Clan tag to be set for player with reserve slot");
 		baseFlag = CreateConVar("custom_clantag_base", "PLAYER", "Clan tag to be set for other players");
+		AutoExecConfig(true, "clantag");
 	}
 }
 
