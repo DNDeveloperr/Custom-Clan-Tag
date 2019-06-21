@@ -19,7 +19,7 @@ public Plugin myinfo =
 	author = "Munoon",
 	description = "Plugin switch player clan tag Ddepending on his role",
 	version = "1.0",
-	url = ""
+	url = "https://github.com/Munoon/Custom-Clan-Tag"
 };
 
 public void OnPluginStart()
