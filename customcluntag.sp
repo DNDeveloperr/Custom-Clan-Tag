@@ -31,5 +31,13 @@ public void OnPluginStart()
 public Action change_clantag(Event event, const char[] name, bool dontBroadcast)
 {
 	int client = GetClientOfUserId(GetEventInt(event, "userid"));
-	CS_SetClientClanTag(client, "CLAN TAG");
+	char tag[128];
+	if (GetUserFlagBits(client) & ADMFLAG_GENERIC)
+		tag = "ADMIN";
+	else if (GetUserFlagBits(client) & ADMFLAG_RESERVATION) 
+		tag = "RESERVE";
+	else
+		tag = "PLAYER";
+		
+	CS_SetClientClanTag(client, tag);
 }  
