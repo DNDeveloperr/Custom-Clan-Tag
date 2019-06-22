@@ -2,9 +2,9 @@
 Plugin switch player clan tag Ddepending on his role
 
 # Installation
-1) Put `customcluntag.smx` to `addons/sourcemod/plugins` folder.
-2) Put `customcluntag.sp` to `addons/sourcemod/scripting` folder.
-3) Restart server or send command `sm plugins load customcluntag`.
+1) Put `customclantag.smx` to `addons/sourcemod/plugins` folder.
+2) Put `customclantag.sp` to `addons/sourcemod/scripting` folder.
+3) Restart server or send command `sm plugins load customclantag`.
 4) Customize config in `cfg/sourcemod/clantag.cfg`.
 
 # Variables
